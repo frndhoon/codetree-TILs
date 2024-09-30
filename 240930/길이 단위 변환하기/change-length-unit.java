@@ -5,7 +5,7 @@ public class Main {
         double ft = 30.48;
         int mi = 160934;
 
-        System.out.printf("%fft = %.1fcm", a, a*ft);
-        System.out.printf("%fmi = %.1fcm", b, b*mi);
+        System.out.printf("%.1fft = %.1fcm \n", a, a*ft);
+        System.out.printf("%.1fmi = %.1fcm", b, b*mi);
     }
 }
